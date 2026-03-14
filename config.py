@@ -4,6 +4,7 @@
 # Just add stuff here when you need a new setting.
 
 from pydantic_settings import BaseSettings
+
 class Settings(BaseSettings):
 
     # ── OpenAI is the default for everything (LLM + Whisper + TTS)
