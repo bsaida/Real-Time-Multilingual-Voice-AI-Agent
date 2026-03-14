@@ -3,7 +3,7 @@
 # pydantic-settings handles the .env file loading and type casting automatically.
 # Just add stuff here when you need a new setting.
 
-from pydantic_settings import BaseSettings
+from pydantic import BaseSettings
 
 
 class Settings(BaseSettings):
